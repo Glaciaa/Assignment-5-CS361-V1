@@ -1,16 +1,26 @@
 #1. The benefits of using my programs features include the fact that they are very familiar. The new feature, which is the ability to import files, is also intuitive and helpful for orgaanizing work. People like Abi and Pat will find this easy to use, and Tim
 #   will see the use of the function and be interested in it.
+
 #2. The cost of using my program is the learning curve, which is low. However, the new feature that I added (file import) may make someone like Abi hesitate to use it as there are some unknowns. There is a tutorial to help mitigate this.
+
 #3. Each button will do exactly what it says, so there is a limited amount of information on the screen at the start. However, as the program is used (ex: using the import function or creating a note) new options are added for the user to interact with. Nothing
 #   unnecessary is given to the user, so only the info they wanted is given.
+
 #4. Each button is clearly labeled to make it as familiar as possible, so even people like Abi will feel comfortable in the program. Many of the features are also similar to other popular applications in functionality.
+
 #5. The user is easily able to delete anything they have typed in the program, so people like Abi or Pat can avoid being overwhelmed.
+
 #6. The application starts off with a tutorial that can be hidden. The buttons are also clearly labeled, so people like Abi will have a clear explanation of each of the features. People like Tim and Pat can instantly hide the tutorial and explore on their own.
+
 #7. The application will have nothing except for a tutorial when it opens, so any approach can be taken when using the program. It is fully up to the user to proceed how they want.
+
 #8. The application encourages tinkering mindfully by putting a limit to how many notes can be created. The program also allows you to bring the tutorial up whenever, so you can see what a button does rather than messing with it forever. This can help people like Tim
 #   stay on task by giving them the information they want.
+
 #Quality 1. The first quality attribute I focused on was reliability, which I did by making sure everything ran smoothly with no hiccups. Everything loads quickly and I have not been able to make the program slow down. I did this by keeping each individual process simple.
+
 #Quality 2. The second quality attribute I focused on was flexibility, which I did by allowing the program to accept almost any file type.
+
 #Quality 3. The last attribute I focused on was Integrity, which I did by making sure that it was very hard to crash the program. Each button does what it is supposed to, and I have not experienced any crashes in my testing.
 
 import time
@@ -166,7 +176,7 @@ while True:
     importButton.place(x = 875, y = 0)
 
     tutorial.place(x = 675, y = 30)
-    tutorial.insert('end', "Use the 'New Note' button to create a note on the page. This will let you type anything! This will also create a save button to save your input in a file. Use the 'Import' button to take the text in a file and place it in a new note!")
+    tutorial.insert('end', "Use the 'New Note' button to create a note on the page. This will let you type anything! This will also create a save button to save your input in a file. Use the 'Import' button to take the name of a file to place the text of a file in a new note!")
 
     closeTutorial = Button(window, text = "Toggle Tutorial", command = hideTutorial)
     closeTutorial.place(x = 950, y = 0)
